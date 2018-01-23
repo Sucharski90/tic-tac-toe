@@ -1,0 +1,29 @@
+body {
+  background-color: rgba(67, 182, 32, 0.57);
+  text-align: center;
+  font-size: 70px;
+}
+h1 {
+  color: white
+}
+.outerBox {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(67, 182, 32, 0);
+  height: 650px;
+  width: 650px;
+
+  /*position: absolute;*/
+  padding-left: 25%;
+  padding-right: 25%;
+}
+.box {
+  background-color: rgb(13, 31, 96);
+  font-size: 100%;
+  color: red;
+  height: 215px;
+  width: 215px;
+  border-radius: 5%;
+  align-items: center;
+  position: relative;
+}
