@@ -4,7 +4,10 @@ body {
   font-size: 70px;
 }
 h1 {
-  color: white
+  color: white;
+}
+h4 {
+  color: white;
 }
 .outerBox {
   display: flex;
@@ -26,4 +29,7 @@ h1 {
   border-radius: 5%;
   align-items: center;
   position: relative;
+}
+.box:hover {
+  background-color: white;
 }
