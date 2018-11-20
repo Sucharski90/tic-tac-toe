@@ -3,8 +3,7 @@ let p1turn = true;
 let turnCount = 1;
 let currentPlayer = null;
 let gameInProgress = true;
-const boxs = document.getElementsByClassName("box");
-console.log(boxs)
+const boxs = document.querySelectorAll(".box");
 
 for (let i = 0; i < boxs.length; i++) {
   boxs[i].addEventListener('click', function(event) {
@@ -13,6 +12,7 @@ for (let i = 0; i < boxs.length; i++) {
       alert("cant play here")
       return
     }
+    
     //write x or o
     const player = turnCount %2 ? 'O' : 'X'
     event.target.innerHTML = player;
